@@ -1,29 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 /* -------------------------Colour */
-.ui-menu-color-home {
-    background-color: black;
+.active {
+    color: rgb(189, 8, 8);
 }
 
-.ui-menu-color-ps4 {
+.inactive {
+    color: rgb(51, 51, 172);
+}
+
+body {
+    background-color: rgb(0, 0, 0)
+}
+
+li{
+    color: orange
+}
+
+
+.reason {
+    text-align: center;
+    color: rgb(63, 60, 60);
+}
+
+.active-ps4 {
     background-color: rgb(0, 48, 135)
 }
 
-.ui-menu-color-xbox {
+.active-xbox {
     background-color: #5dc21e;
 }
 
-/* -------------------------Nav */
+.ps4-blue {
+color: rgb(0, 48, 135)
+}
 
-#nav {
-    text-transform: uppercase;
+.x-reasons {
+    color: #5dc21e;
+}
+
+.pros {
+    color: rgb(8, 119, 41);
+}
+
+.cons {
+    color: rgb(189, 8, 8)
+}
+
+h1 {
+    color: rgb(189, 8, 8);
+}
+
+footer {
+    background-color: rgb(66, 63, 63);
+    color: pink;
+    text-align: center;
+    width: 100%;
+}
+
+
+.spec {
+    color: rgb(189, 8, 8);
+}
+
+/* -------------------------Nav */
+.navbar {
+    font-weight: 600;
+    margin-right: 0px;
+    text-align: center;
+    background-color: rgb(0, 0, 0)
 }
 
 
 
+
+
+/* -------------------------opener */
+.opener{
+    text-align: center;
+    background-color: rgb(66, 63, 63);
+    word-spacing: 5%;    
+}
+
 /* -------------------------Images */
 .ps4 {
-    background: url("../images/PS4-Console-wDS4.png");
+    background: url("../Images/PS4-Console-wDS4-1.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: fill;
+    min-height: 100px;
+    min-width: 100px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -36,4 +102,53 @@
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+.vs {
+    background: url("../images/Ps4-vs-xbox.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 360px;
+    min-width: 200px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/* -------------------------Hover */
+    .hvr-shutter-out-vertical {
+        background: rgba(0,0,0,0)
+    }
+    
+    /* -------------------------Body */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.ps{
+    text-align: center
+}
+
+    /* -------------------------Padding */
+h4{
+    padding-left: 10px;
+}
+
+.spec {
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.container{
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+}
+
+.centre {
+    font-weight: 600;
+    margin-right: 0px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
 }
