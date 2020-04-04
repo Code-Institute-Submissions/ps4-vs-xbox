@@ -83,10 +83,13 @@ footer {
     /* -------------------------Body */
 body {
     font-family: 'Oswald', sans-serif;
+    padding: 5px, 0px, 0px, 0px;
+    overflow-x: auto;
+    
 }
 
 .ps{
-    text-align: center
+    text-align: center;
 }
 
 .spec {
@@ -117,6 +120,8 @@ h4{
 /* -------------------------Table */
 #exclusive {
     border: 4px solid grey;
+    padding-left: 3px;
+    overflow-x: auto;
 }
 
 tr {

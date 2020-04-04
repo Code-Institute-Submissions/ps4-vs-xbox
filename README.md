@@ -1,81 +1,80 @@
-# Your Project's Name
+# PS4 vs Xbox one
+I decided to take a look at the differences between, both positive and negative, of the PS4 and the Xbox one. Lots of people debate over which is better but I have found a large amount of bias towards one side or the other in most
+of these debates. I decided to take a neutral stance and fully explore each option to give a consumer a guide on which, if either, console is right for them
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
- 
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This website was for a consumer looking to buy a game console but are either undecided on which one is right for them or just simply uninformed on the differences between the two. My site
+was set from a neutral viewpoint in order to help them find which product is right for them not me. I combined all of the major
+differences between the two consoles in one easy to accsess site.
+Back when I was deciding on which one to buy I had a hard time both finding reliable unbiased information as well just differences between the two in general. As a consumer I like to be sure of my purchasing decision
+so this lack of easily accessable information forced me to spend much longer than neeeded researching both consoles.
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Comparison of the two consoles.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- General pros and cons - allows comsumers to decide which to examine first and see what each console is known for.
+- picture of each - In case they get the two confused allows people to see thr difference in appearance
+- console specs - lists the console internals for those intrested and sumarizes it for those who can not understand it.
+- table of exclusives- lists console exclusives for those who want to play a specific game.
+- final thoughts - gives reasons why you might buy each console and looks at it from multiple perspectives
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
-
+Adding the nintendo switch as a consideration ie it's pros cons and exclusives
+Adding PC as a consideration
 ## Technologies Used
+- [Bootstrap] (https://getbootstrap.com/)
+    - for responsive mobile first design
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [font-awesome] (https://fontawesome.com/)
+    - for icons
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [html]
+    - fotmat of the project
 
+- [css] (https://www.w3.org/Style/CSS/Overview.en.html)
+    - to style html
+
+- [gitpod] (https://gitpod.io/workspaces/)
+    - as a workspace to develop project
+
+- [gitpod-full-template] (https://github.com/Code-Institute-Org/gitpod-full-template)
+    - as a template
+
+- [design-workplan] (https://www.designworkplan.com/read/signage-and-color-contrast)
+    - to see what colour looks like on a black backround
+
+- [google-fonts] (https://fonts.google.com/)
+    - as a font
+
+- [github] (https://github.com/)
+    - to host site
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- I tested to make sure the site looks good on mobile by bringing up the site on github pages
+- I made sure the images were a small enough file size to load fast 
+- I made sure my alt text for the images appear if an image dosn't load
+- I gave the site to a parent to see what there opinion on buying a console was before amd after
+Before: No idea what the differences were just that an xbox game won't work on playstation and viceversa
+After: xbox is better for familys or people with a low income because of game pass but if you really want to 
+play a certain game on ps4 it is the only option
+- small bug in that there is a bit of horizontal scroll no matter how I trry to fix
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
-## Credits
+- I made a seprate branch and deployed it on github pages
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- I got the specs of the consoles from https://www.anandtech.com/show/6972/xbox-one-hardware-compared-to-playstation-4/2 
 
 ### Media
-- The photos used in this site were obtained from ...
+the photos on ths site were obtained on wikipedia
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I recieved inspiration from myself when i had to decide between the two consoles as well as having
+friends ask which to buy
