@@ -72,7 +72,7 @@ play a certain game on ps4 it is the only option
 - I got the specs of the consoles from https://www.anandtech.com/show/6972/xbox-one-hardware-compared-to-playstation-4/2 
 
 ### Media
-the photos on ths site were obtained on wikipedia
+- The photos on ths site were obtained on wikipedia for free as the image owner gave explicit permission for anyone to do so
 
 ### Acknowledgements
 
